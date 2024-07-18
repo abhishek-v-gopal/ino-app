@@ -6,7 +6,7 @@
             </p>
         </div>
         <div class="flex items-center justify-center">
-            <img src="public/assets/login.svg" alt="Logo" class="max-w-full max-h-full">
+            <img src="public/assets/forgot.png" alt="Logo" class="max-w-full max-h-full">
         </div>
         <section class="grid gap-4">
             <div class="flex items-center justify-center">
@@ -31,6 +31,6 @@
 </template>
 <script>
 export default {
-    name: 'loginView.vue',
+    name: 'forgotPassword.vue',
 }
 </script>      

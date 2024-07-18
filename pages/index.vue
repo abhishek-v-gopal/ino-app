@@ -1,12 +1,14 @@
 <template>
   <!-- <splashscreen /> -->
   <!-- <loginView /> -->
-   <forgotPassword />
+   <!-- <forgotPassword /> -->
+    <signupView />
 </template>
 <script>
 import splashscreen from '../components/splashscreen.vue'
 import loginView from '~/components/enroll/loginView.vue'
 import forgotPassword from '~/components/enroll/forgotPassword.vue';
+import signupView from '~/components/enroll/signupView.vue';
 
 export default{
   name: 'Home',
@@ -14,6 +16,7 @@ export default{
     splashscreen,
     loginView,
     forgotPassword,
+    signupView,
   },
 }
 </script>
